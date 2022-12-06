@@ -1,7 +1,17 @@
 from http.server import HTTPServer,BaseHTTPRequestHandler
 
 content='''
-Hello
+<!doctype html>
+<html>
+<head>
+<title> My Web Server</title>
+</head>
+<body>
+<h1>Top Five Web Application Development Frameworks</h1>
+<h2>1.Django</h2>
+<h2>2. MEAN Stack</h2>
+</body>
+</html>
 '''
 
 class MyServer(BaseHTTPRequestHandler):
